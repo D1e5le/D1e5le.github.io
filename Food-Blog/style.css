@@ -1,0 +1,98 @@
+/* === Typography === */
+body {
+	font-family: ‘Helvetica’, ‘Arial’, sans-serif;
+	font-size: 14pt;
+	line-height: 18pt;
+	color: #000000;
+	background-color: #ffffff;
+}
+nav a {
+	color: #FFFFFF;
+	text-decoration: none;
+	margin-right: 10px;
+}
+
+h1 {
+	text-align: center;
+	font-family: Teko;
+	margin: auto;
+	
+}
+h2 {
+	
+	
+}
+footer {
+	display:flex;
+	align-items: center;
+ 	justify-content: center;
+	font-style: italic;
+	font-size: 8pt;
+	text-align: center;
+	color: #ffffff;
+	background-color: #000000;
+	height: 150px;
+}
+footer p {
+	margin: 0px;
+}
+/* === Backgrounds === */
+
+main {
+	display: grid;
+	grid-template-columns: 75% 25%;
+	background-color: #cdcdcd;
+}
+header {
+	text-align: center;
+	background-color: #000000;
+	height: 150px;
+}
+header img {
+	margin: 15px;
+}
+#splash {
+	display:flex;
+ 	justify-content: center;
+	background-image: url(heading.jpg);
+	height: 400px;
+	font-size: 50pt;
+ 	grid-column-start:1;
+ 	grid-column-end:3;
+}
+
+#container {
+	width: 1000px;
+	margin: auto;
+}
+#foodarticles img {
+	height: 300px;
+	width: 300px;
+	margin: 40px;
+	margin-top:0px;
+	margin-right: 20px;
+}
+#foodarticles h2 {
+	margin-top: 40px;
+}
+#foodarticles p {
+	font-size: 12px;
+	word-spacing: 0px;
+	margin-right: 20px;
+	margin-left: 40px;
+}	
+aside {
+	margin: 25px;
+}
+aside h3 {
+	font-size: 15pt;
+}
+aside li {
+	font-size: 11pt;
+}
+.floatleft {
+	float: left;
+}
+.floatright {
+	float: right;
+}
