@@ -5,6 +5,7 @@ body {
 	line-height: 18pt;
 	color: #000000;
 	background-color: #ffffff;
+
 }
 nav a {
 	color: #FFFFFF;
@@ -47,6 +48,11 @@ header {
 	text-align: center;
 	background-color: #000000;
 	height: 150px;
+	position: fixed;
+	top:0;
+	left:0;
+	
+	width: 100%;
 }
 header img {
 	margin: 15px;
@@ -59,6 +65,7 @@ header img {
 	font-size: 50pt;
  	grid-column-start:1;
  	grid-column-end:3;
+	padding-top: 150px;
 }
 
 #container {
@@ -89,6 +96,16 @@ aside h3 {
 }
 aside li {
 	font-size: 11pt;
+}
+#advertisment {
+	background-color: #ff0000;
+	width: 400px;
+	
+	margin: 50px;
+	padding: 15px;
+	position: fixed;
+	bottom:0;
+	right:0;
 }
 .floatleft {
 	float: left;
