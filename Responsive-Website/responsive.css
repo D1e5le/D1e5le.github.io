@@ -1,0 +1,93 @@
+/* === For your Responsive CSS === */
+@media screen and (min-width:601px){
+	#mobile-menu { display: none;}
+}
+
+@media screen and (max-width:600px){
+	/* == Typography == */
+	
+	main {
+		text-align: center;
+	}
+	
+	footer {
+		text-align: center;
+	}
+	
+	#nav a {
+		text-align: center;
+	}
+	#splash {
+	 	font-size: 2rem;
+		line-height: 2.5rem;		
+	}
+
+	#logo {
+		text-align: center;
+	}
+
+	#social-media {
+		text-align: center;
+	}
+	
+	/* == Background == */
+	#nav a {
+		background-color: orange;
+	}
+	/* == Box Model == */
+	
+	#nav a {
+	 	display: block;
+		padding: 5px;
+	}
+	#splash {
+		height: 10.7rem;
+	}
+	
+	/* === Layout  === */
+	
+	#mobile-menu {
+ 		position: fixed;
+	 	top: 10px;
+	 	right: 10px;
+	}
+	
+	/* = Grid =*/
+	header { 
+		grid-template-columns: 100%;
+	}
+	main {
+ 		grid-template-columns: 100%;
+	}
+	
+	footer {
+		grid-template-columns: 100%;		
+	}
+	
+	#splash {
+ 		grid-column: 1/2;
+	}
+	#app {
+ 		grid-column: 1/2;
+	}
+}
+
+@media (prefers-color-scheme: dark) {
+    body {
+		background-color: #808080;
+	}
+
+	main {
+		background-color: #cdcdcd;
+	}
+	* {
+		color: #ffffff;
+	}
+	#nav a {
+		color: #ffffff;
+	}
+}
+
+img {
+ max-width: 100%;
+}
