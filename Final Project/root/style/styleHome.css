@@ -1,0 +1,123 @@
+/* == Typography == */
+#splash h2 {
+	color: #FF59B1;
+}
+#splash h3 {
+	color: #FF59B1;
+}
+#splash button {
+	font-family: Emilys Candy;
+	color: #ffffff;
+	font-size: 2.14rem;
+}
+#splash a{
+	text-decoration: none;
+	color: #ffffff;
+}
+#candyPreview h3 {
+	color: #38761D;
+}
+#CandyView button{
+	font-family: Alef;
+	color: #ffffff;
+	font-size: 1.07rem;
+}
+#CandyView a{
+	text-decoration: none;
+}
+
+/* == Background == */
+#splash button {
+	background-color: #FF59B1;
+}
+#candyPreview {
+	background-color: #ffffff;
+}
+#CandyView button {
+	background-color: #00C9C5;
+}
+/* == Box Model == */
+#splash {
+	margin-right: 10vh;
+	margin-left	: 10vh;
+}
+#splash img {
+	max-width: 100%;
+}
+#splashText {
+	margin-left: 1rem;
+	margin-top :15%
+}
+#splash button {
+	border: 0.36rem;
+	border-style: solid;
+	border-color: #FF59B1;
+    padding: 20px;
+    margin-top :25%;
+	margin-left: 10%;
+	border-radius: 50px;
+}
+#candyPreview { 
+	padding: 50px;
+}
+#candyPreview img {
+	object-fit: cover;
+	height: 200px;	
+	width: 200px;
+}
+#CandyView button {
+	width: 10rem;
+	border: .21rem;
+	border-style: solid;
+	border-color: #00C9C5;
+    padding: 5px;
+    margin-top :10%;
+	border-radius: 5px;
+}
+#CandyView img {
+	margin: auto;
+}
+
+/* === Layout  === */
+#splash {
+	position: relative;
+}
+#splashText {
+	position: absolute;
+}
+#splash button {
+	position: absolute;
+}
+#candyPreview img {
+	display: block;
+}
+#CandyView {
+	text-align: center;
+}
+
+/* = Grid =*/
+#candyPreviewImgs {	
+	display: grid;
+	grid-template-columns: auto auto auto auto auto;
+	justify-content: space-evenly;
+	justify-items: center;
+	align-content: space-evenly;
+	align-items: center;
+}
+
+/* = Other = */
+
+#splash button:hover {
+	border: .36rem;
+	border-style: solid;
+	border-color: #FF59B1;
+	background-color: #FFAACD;
+	cursor: pointer;
+}
+#CandyView button:hover{
+	border:.21rem;
+	border-style: solid;
+	border-color: #00C9C5;
+	background-color: #9BDBF5;
+	cursor: pointer;
+}
