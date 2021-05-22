@@ -1,0 +1,30 @@
+@media screen and (min-width:1051px){
+	#mobileNav {
+		display: none;
+	}
+}
+
+@media screen and (max-width:1050px){
+	header img {
+		height: 5rem;
+		position: absolute;
+		top: 20%;
+	}
+	#nav {
+		display: none;
+	}
+	#mobileNav {
+		color: #00C9C5;
+		font-size: 2rem;
+		position: absolute;
+		bottom: 35%;
+		right: 2rem;
+	}
+	#textHeader h1 {
+		font-size: 2rem;
+		margin-bottom: 3%;
+	}
+	#textHeader h3 {
+		font-size: 1.5rem;
+	}
+}

@@ -1,0 +1,42 @@
+@media screen and (max-width:1050px){
+	#candyPreviewImgs {
+		display: block;
+	}
+	#CandyView img{
+		width: 55vw;
+	}
+	#CandyView button {
+		width: 10rem;
+		border: .21rem;
+		border-style: solid;
+		border-color: #00C9C5;
+		padding: 5px;
+		margin-top :5%;
+		margin-bottom :10%;
+		border-radius: 5px;
+	}
+	#overlayTweak {
+		z-index: 0;
+	}
+
+}
+@media screen and (max-width:860px){
+	#splash {
+		margin: 0;
+	}
+	#splash button {
+		display: none;
+	}
+	.backgroundContent img {
+		opacity: 0;
+	}
+	#splash {
+		background-image: url(../images/Candy%20Background.jpg);
+		background-size: cover;
+		background-color: rgba(255, 255, 255, 0.25);
+		background-blend-mode: lighten;
+	}
+	.splashText h2, h3 {
+		z-index: 1;
+	}
+}

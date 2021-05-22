@@ -1,0 +1,258 @@
+/* == Typography == */
+h1 {
+	font-family: Emilys Candy;
+	color: #00B9C8;
+	font-size: 3.21rem;
+}
+h2 {
+	font-family: Emilys Candy;
+	color: #00B9C8;
+	font-size: 2.5rem;	
+}
+h3 {
+	font-family: Emilys Candy;
+	color: #00B9C8;
+	font-size: 2.14rem;
+}
+h4 {
+	font-family: #00C9C5;
+	color: #00B9C8;
+	font-size: 1.79rem;
+}
+footer {
+	font-family: Alef;
+	color: #38761D;
+}
+footer p {
+	font-size: 0.57rem;
+}
+#nav a{
+	text-decoration: none;
+	font-family: Alef;
+	color: #00C9C5;
+	font-size: 2rem;
+}
+#splash h2 {
+	color: #FF59B1;
+}
+#splash h3 {
+	color: #FF59B1;
+}
+#splash button {
+	font-family: Emilys Candy;
+	color: #ffffff;
+	font-size: 2.14rem;
+}
+#splash a{
+	text-decoration: none;
+	color: #ffffff;
+}
+#candyPreview h3 {
+	color: #38761D;
+}
+#CandyView button{
+	font-family: Alef;
+	color: #ffffff;
+	font-size: 1.07rem;
+}
+#CandyView a{
+	text-decoration: none;
+}
+
+/* Font Awesome icons */
+footer a {
+	text-decoration: none;
+	color: #38761D;
+}
+footer i {
+	font-size:1.79rem;
+	margin: .36rem
+}
+
+/* == Background == */
+body {
+	background-color: #9BDBF5; 
+}
+header {
+	background-color: #ffffff; 
+}
+#splash button {
+	background-color: #FF59B1;
+}
+#candyPreview {
+	background-color: #ffffff;
+}
+#CandyView button {
+	background-color: #00C9C5;
+}
+/* == Box Model == */
+body {
+	margin: 0;
+}
+header {
+	position: relative;
+	height: 9.64rem;
+	padding-right: 2rem;
+	padding-left: 1rem;
+}
+header img {
+	height: 8.57rem;	
+}
+h1 {
+	margin: 0;
+}
+h2 {	
+	margin: 0;	
+}
+h3 {	
+	margin: 0;	
+}
+h4 {	
+	margin: 0;	
+}
+footer {
+	margin-top: 2.14rem;
+}
+#nav a {
+	margin-left : 1.75rem
+}
+#splash {
+	margin-right: 10vh;
+	margin-left	: 10vh;
+}
+#splash img {
+	max-width: 100%;
+}
+#splashText {
+	margin-left: 1rem;
+	margin-top :15%
+}
+#splash button {
+	border: 0.36rem;
+	border-style: solid;
+	border-color: #FF59B1;
+    padding: 20px;
+    margin-top :25%;
+	margin-left: 10%;
+	border-radius: 50px;
+}
+#candyPreview { 
+	padding: 50px;
+}
+#candyPreview img {
+	object-fit: cover;
+	height: 200px;	
+	width: 200px;
+}
+#CandyView button {
+	width: 10rem;
+	border: .21rem;
+	border-style: solid;
+	border-color: #00C9C5;
+    padding: 5px;
+    margin-top :10%;
+	border-radius: 5px;
+}
+#CandyView img {
+	margin: auto;
+}
+
+/* === Layout  === */
+footer {
+	text-align: center;
+}
+#textHeader {
+	position: relative;
+	top: 2rem;
+	left: 1rem;
+}
+#nav {
+	position: absolute;
+	bottom:0;
+	right: 2rem;
+}
+#splash {
+	position: relative;
+}
+#splashText {
+	position: absolute;
+}
+#splash button {
+	position: absolute;
+}
+.floatL {
+	float:left;
+}
+.floatR {
+	float:right;
+}
+#candyPreview img {
+	display: block;
+}
+#CandyView {
+	text-align: center;
+}
+
+/* = Grid =*/
+#candyPreviewImgs {	
+	display: grid;
+	grid-template-columns: auto auto auto auto auto;
+	justify-content: space-evenly;
+	justify-items: center;
+	align-content: space-evenly;
+	align-items: center;
+}
+
+/* = Other = */
+
+#splash button:hover {
+	border: .36rem;
+	border-style: solid;
+	border-color: #FF59B1;
+	background-color: #FFAACD;
+	cursor: pointer;
+}
+#CandyView button:hover{
+	border:.21rem;
+	border-style: solid;
+	border-color: #00C9C5;
+	background-color: #9BDBF5;
+	cursor: pointer;
+}
+
+/* = Animation = */
+header a {
+  position: relative;
+  text-decoration: none;
+  padding-bottom: 1px;
+}
+header a:before, header a:after {
+  content: "";
+  position: absolute;
+  bottom: 2px;
+  left: 0;
+  right: 0;
+  height: 2px;
+  background-color: #38761D;
+}
+header a:before {
+  opacity: 0;
+  transform: translateY(-8px);
+  transition: transform 0s cubic-bezier(0.175, 0.885, 0.32, 1.275), opacity 0s;
+}
+header a:after {
+  opacity: 0;
+  transform: translateY(4px);
+  transition: transform 0.2s cubic-bezier(0.175, 0.885, 0.32, 1.275), opacity 0.2s;
+}
+header a:hover:before, header a:hover:after, header a:focus:before, header a:focus:after {
+  opacity: 1;
+  transform: translateY(0);
+}
+header a:hover:before, header a:focus:before {
+  transition: transform 0.2s cubic-bezier(0.175, 0.885, 0.32, 1.275), opacity 0.2s;
+}
+header a:hover:after, header a:focus:after {
+  transition: transform 0s 0.2s cubic-bezier(0.175, 0.885, 0.32, 1.275), opacity 0s 0.2s;
+}
+
