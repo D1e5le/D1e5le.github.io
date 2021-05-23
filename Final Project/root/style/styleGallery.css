@@ -1,0 +1,50 @@
+
+main{
+    box-sizing: border-box;}
+main {
+    font-family: 'Helvetica', 'Arial', sans-serif;
+    font-size: 14pt;
+    line-height: 18pt;
+    background-color: #9BDBF5;
+    padding: 0;
+    margin: 0;
+    color: #052e00;}
+
+
+main img{
+    width: 80%;
+    height: 80%;
+    float: center
+   
+}
+#candy{
+    display: grid;
+    grid-template-columns: 25% 25% 25% 25%;}
+main h1 {
+    font-family: Emilys Candy;
+    font-weight: normal;
+    font-size: 30pt;
+    color: #00B9C8;
+    margin: 0 0;
+    display: block}
+main h2 {
+    font-family: Emilys Candy;
+    font-weight: normal;
+    font-size: 15pt;
+    color: #00B9C8;
+    margin: 0 0;
+    padding-top: 15px}
+
+main div{
+    margin-left:auto;
+    margin-right:auto;
+    width: 1000px;
+    margin: auto}
+main p{
+    margin-left: 5%;
+    font-family: emilys candy;
+    color: #F40887;
+    font-size: 35px
+}
+
+
