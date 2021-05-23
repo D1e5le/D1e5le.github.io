@@ -1,0 +1,112 @@
+/* == Typography == */
+#container h2 {
+	color: #FF59B1;
+}
+#container p {
+	font-family: Alef;
+	color: #38761D;
+	font-size: 1.79rem;
+}
+.BuisInfo h3 {
+	text-align: center;
+}
+.BuisInfo ul{
+	list-style-type:circle;
+	color: #38761D;
+}
+.EmailForm label {	
+	font-family: Alef;
+	color: #38761D;
+	font-size: 2rem;
+}
+.EmailForm ul {
+	list-style-type:none;
+}
+
+/* == Background == */
+main {
+	background-color: #FFAACD;
+}
+.containerHead{
+	background-color: #ffffff;
+}
+.BuisInfo {	
+	background-color: #ffffff;
+}
+.EmailForm {	
+	background-color: #ffffff;
+}
+/* == Box Model == */
+
+main {
+	width: 75%;
+	margin: auto;
+	margin-top: 5%;
+	padding: 50px;
+}
+* button {
+	color: #ffffff;
+	font-family: Alef;
+	width: 10rem;
+	border: .21rem;
+	border-style: solid;
+	border-color: #00C9C5;
+    padding: 5px;
+    margin-bottom :10%;
+	border-radius: 5px;
+	background-color: #00C9C5
+}
+.containerHead{
+	border-radius: 1.42rem;
+	text-align: center;
+	padding: 1rem;
+}
+.containerHead h2{
+	margin-top: 3%;
+}
+.BuisInfo {	
+	border-radius: 1.42rem;
+	margin: 1rem;
+	padding: 2rem;
+}
+.BuisInfo p {
+	margin-bottom: 0;
+	margin-top: 0;
+}
+.BuisInfo h3 {
+	margin-bottom: 1rem;
+}
+.EmailForm {	
+	border-radius: 1.42rem;
+	margin: 1rem;
+	padding: 2rem;
+	text-align: center;
+}
+.EmailForm label {	
+	margin: 1rem;
+}
+.EmailForm ul {
+	padding: 0;
+}
+/* === Layout  === */
+
+/* = Grid =*/
+#container {
+	display: grid;
+	grid-template-columns: auto auto;
+}
+.containerHead {
+	grid-column-start: 1;
+    grid-column-end: 3;
+
+}
+
+/* = Other = */
+
+* button:hover{
+	border:.21rem;
+	border-style: solid;
+	border-color: #00C9C5;
+	background-color: #9BDBF5;
+	cursor: pointer;
+}

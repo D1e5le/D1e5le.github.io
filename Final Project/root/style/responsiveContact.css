@@ -1,0 +1,17 @@
+@media screen and (max-width:950px){
+	#container {
+		display:block;
+	}
+	#container p {
+		font-size: .79rem;
+	}
+	.EmailForm label {	
+		font-family: Alef;
+		color: #38761D;
+		font-size: 1.5rem;
+	}
+	.EmailForm ul {
+		list-style-type:none;
+	}
+
+}

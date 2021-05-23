@@ -2,12 +2,14 @@
 <html lang="en">
 	<head>
 	<meta charset="UTF-8">
-    <title> &#x1F36C Candy King &#x1F36D</title>
+    <title> &#x1F36C Candy King Contact Us &#x1F36D</title>
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
 	<link href="https://fonts.googleapis.com/css2?family=Alef&family=Emilys+Candy&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.13.0/css/all.min.css">
 	<link rel="stylesheet" href="../style/style.css">
+	<link rel="stylesheet" href="../style/styleContact.css">
 	<link rel="stylesheet" href="../style/responsive.css">
+	<link rel="stylesheet" href="../style/responsiveContact.css">
 	
 	</head>
 	<body>
@@ -18,10 +20,10 @@
 			</section>
 				<img class="floatL" src="../images/CandyKingLogo.png">
 			<section id="nav" class="floatR">
-				<a href="#">Home</a>
-				<a href="#">Gallery</a>
+				<a href="CandyKingIncHome.html">Home</a>
+				<a href="CandyKingIncGallery.html">Gallery</a>
 				<a href="#">About</a>
-				<a href="#">Contact</a>
+				<a href="CandyKingIncContact.html">Contact</a>
 			</section>
 			<section id="mobileNav" class="floatR">
 				<i class="fas fa-bars"></i>
@@ -29,14 +31,64 @@
 		</header>
 		<main>
 			<div id="container">
-				
+				<section class="containerHead">
+					<h2>GET IN TOUCH!</h2>
+					<p>We will be happy to answer all your questions or to help you place a custom order!</p>
+					<p>Tel: 925-623-6747  |  Email: candyking711@gmail.com</p>
+				</section>
+				<section class="BuisInfo">
+					<h3>You can visit us at:</h3>
+					<p>711 Main St</p>
+					<p>Pleasanton, Ca 94566</p>
+					<div>
+						<h3>Working hours:</h3>
+						<ul>
+							<li><p>Monday - Closed</li>
+							<li><p>Tue - Thurs 11:00-7:30</p></li>
+							<li><p>Fri - Sat 11:00-9:30</p></li>
+							<li><p>Sunday 11:00-5:00</p></li>
+						</ul>
+					</div>
+				</section>
+				<section class="EmailForm">
+					<h3>Send us an Email!</h3>
+					<form action="#" method="post">
+						<ul>
+							<li>
+								<label for="name">Name:</label>
+								<input type="text" id="name" name="user_name" />
+							</li>
+							<li>
+								<label for="mail">E-mail:</label>
+								<input type="email" id="mail" name="user_email" />
+							</li>
+							<li>
+								<label for="sub">Subject:</label>
+								<input type="sub" id="sub" name="user_subject" />
+							</li>
+							<li>
+								<label for="msg">Message:</label>
+								<textarea id="msg" name="user_message"></textarea>
+							</li>
+							<li>
+								<button>Submit</button>
+							</li>
+						</ul>
+					</form>
+					<h3> Stay Up-To-Date with New Posts! </h3>
+					<form action="#" method="post">
+						<label for="mail">Enter your email here*</label>
+						<input type="email" id="mail" name="user_email" />
+						<button>Submit</button>
+					</form>
+				</section>
 			</div>
-			<footer>
-				<a href="https://www.facebook.com"><i class="fab fa-facebook-f"></i></a>
-				<a href="https://www.instagram.com"><i class="fab fa-instagram"></i></a>
-				<p>© 2020 by Candy King Inc</p>
-			</footer>
 
 		</main>
+		<footer>
+			<a href="https://www.facebook.com"><i class="fab fa-facebook-f"></i></a>
+			<a href="https://www.instagram.com"><i class="fab fa-instagram"></i></a>
+			<p>© 2020 by Candy King Inc</p>
+		</footer>
 	</body>
 </html>
