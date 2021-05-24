@@ -1,0 +1,10 @@
+@media screen and (max-width:1050px){
+	#candy {
+		grid-template-columns: auto auto;
+		justify-content: space-evenly;
+		justify-items: center;
+		align-content: space-evenly;
+		align-items: center;
+	}
+	
+}

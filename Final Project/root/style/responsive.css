@@ -15,10 +15,17 @@
 	}
 	#mobileNav {
 		color: #00C9C5;
-		font-size: 2rem;
+		font-size: 3rem;
 		position: absolute;
-		bottom: 35%;
-		right: 2rem;
+		bottom: 30%;
+		right: 1rem;
+	}
+	#mobileNav button{
+		width: auto;
+		border-style: none;	
+		background-color: #ffffff;
+		color: inherit;
+		font-size: inherit;
 	}
 	#textHeader h1 {
 		font-size: 2rem;

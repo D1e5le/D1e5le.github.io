@@ -1,0 +1,62 @@
+/* == Layout == */
+
+#container {
+    display: grid;
+    grid-template-columns: 50% 50%;
+    max-width: 100%;
+}
+
+section {
+    display: block;
+}
+
+
+#right {
+    text-align: right;
+    margin-top: 50px;
+}
+
+
+main {
+    margin-top: 5%;
+    top: 250px;
+	padding-bottom: 5%;
+}
+
+
+/* == Typography == */
+
+#left {
+    font-family:'Emilys Candy', cursive;
+}
+
+#right {
+    font-family:'Emilys Candy', cursive;
+}
+
+main h1, p, h2 {
+    font-family:'Emilys Candy', cursive;
+}
+
+/* == Colors == */
+
+
+body {
+    background-color: #9BDBF5;
+}
+
+main {
+    color: #38A20B;
+}
+
+footer {
+    color: #38A20B;
+}
+
+/* == Box Model == */
+
+main {
+    box-sizing: border-box;
+    background-color: #FFAACD;
+    text-align: center;
+}
